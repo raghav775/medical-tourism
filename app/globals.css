@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Medical Design System Styles */
+
+:root {
+  --primary-color: #008CBA; /* Example primary color */
+  --secondary-color: #f4f4f4; /* Example secondary color */
+  --text-color: #333333; /* Example text color */
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+}
